@@ -15,12 +15,17 @@ It fetches the traffic light data and navigates the user to the safest path to r
 This application is made with the help of:
 
 1. Microsoft PowerApps
-
-![image](https://user-images.githubusercontent.com/74983536/159092707-b0bfb156-ed25-4f5f-a116-6fc5c9ae8d4d.png)
-
+<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/powerapps.png" width="150px" > 
 2. Figma 
-
-![image](https://user-images.githubusercontent.com/74983536/159094104-791aff4b-0c2d-4343-906c-81462070cc7d.png)
+<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/figma.png" width="150px" >
+3. Bing
+<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/bing.png" width="150px">
+4. Twilio
+<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/twilio.png" width="150px">
+5. Sharepoint 
+<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/sharepoint.png" width="150px">
+6. GoogleMaps
+<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/google maps.png" width="150px">
 
 
 ## 👩🏻‍💻App showcase 
