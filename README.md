@@ -6,7 +6,7 @@ The path to perfect safety
 
 Feeling safe is a basic human right. It's easy to be victim of the numerous wrongdoings or natural catastrophe while travelling on your own.
 
-## 📲What it does?[Phone UI screens.pdf](https://github.com/SayantaniDeb/SafetyPins/files/8310807/Phone.UI.screens.pdf)
+## 📲What it does?
 
 
 It fetches the traffic light data and navigates the user to the safest path to reach their destination. It also has built in sirens to alert people around incase of any discrepancies. Furthermore, it stores emergency contact numbers incase of emergencies who can be immediately contacted within a press of a key.
@@ -29,25 +29,25 @@ It fetches the traffic light data and navigates the user to the safest path to r
 |----------|-------|
 | Python 3 | 3.7.1 |
 | Microsoft Chromium Edge | Beta 81.0.416.34 |
-| PowerApps |  |
-| Figma |  |
-| Bing Maps |  |
-| Twilio |  |
-| SharePoint |  |
-| Google Maps |  |
+| PowerApps | 3.22022 |
+| Figma | 1 |
+| Bing Maps | 3D 4.0 |
+| Twilio | 6.3.1 |
+| SharePoint | 4.40.1 |
+| Google Maps | 10.66. 1 |
 
 ## 👩🏻‍💻App showcase 
 
 ![Mobile screens UI prototyping](https://user-images.githubusercontent.com/74983536/159151913-3fd9cfa9-3a96-45bb-bbc6-c6af0f694802.png)
 
-Link to view mobile UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=2%3A67&node-id=2%3A67&viewport=241%2C48%2C0.15&scaling=scale-down&starting-point-node-id=2%3A781)
+### Link to view mobile UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=2%3A67&node-id=2%3A67&viewport=241%2C48%2C0.15&scaling=scale-down&starting-point-node-id=2%3A781)
 
 ![Watch screens UI prototyping](https://user-images.githubusercontent.com/74983536/159151953-25a75e62-b877-4788-a901-253f4d1de368.png)
 
 
-Link to view watch UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C0.29&scaling=scale-down&starting-point-node-id=2%3A3)
+### Link to view watch UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C0.29&scaling=scale-down&starting-point-node-id=2%3A3)
 
-Link to wireframes and UI (high fidelity) screens: [Here](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
+### Link to wireframes and UI (high fidelity) screens: [Here](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
 
 
 
@@ -64,17 +64,22 @@ Link to wireframes and UI (high fidelity) screens: [Here](https://www.figma.com/
 
 ## 🧠Challenges we ran into 
 
-
+- We were all affected with Covid-19 at dfferent timeline of the project.
+- Faced issues such as embedding the maps to the app.
 
 
 
 
 
 ## 🥇Accomplishments we are proud of
-- This was our first time working on Microsoft PowerApps
+- This was our first time working on Microsoft PowerApps.
+- We were able to collaborate and work in harmony despite severe ailments hindering us.
+
 
 
 ## 🚀Future Scope
+- The navigation feature to be imporved according to the user's loaction.
+- With more traffic light data, the limitation of the safety path can be expanded.
 
 
 ## 👩🏻‍💻👩🏻‍💻👩🏻‍💻Team behind SafetyPins
