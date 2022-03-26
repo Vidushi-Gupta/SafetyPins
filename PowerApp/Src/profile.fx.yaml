@@ -1,0 +1,320 @@
+"profile As screen.'phoneLayout_HeaderAndForm_ver3.0'":
+    BackgroundImage: =splash
+    ImagePosition: =ImagePosition.Fill
+
+    ColumnChart2_1 As barChart:
+        Height: =386
+        Items: =usersafety
+        Width: =548
+        X: =32
+        Y: =161
+        ZIndex: =29
+
+    "'nav bar_14' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =29
+
+        "'navigate button_22' As button":
+            AutoDisableOnSelect: =false
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate('Navigate screen_1')
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =135
+            Y: =1054
+            ZIndex: =14
+
+        "'sos button_22' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate(Danger)
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =263
+            Y: =1054
+            ZIndex: =15
+
+        "'alarm button_22' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate(choose)
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =388
+            Y: =1054
+            ZIndex: =16
+
+        "'profile button_22' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate(profile)
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =511
+            Y: =1054
+            ZIndex: =17
+
+        "'navigate label_22' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Navigate"
+            Width: =94
+            X: =153
+            Y: =1099
+            ZIndex: =18
+
+        "'Alarm label_22' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Alarm"
+            Width: =75
+            X: =397
+            Y: =1099
+            ZIndex: =19
+
+        "'home button_22' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate('Home screen')
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =137
+            Y: =1054
+            ZIndex: =20
+
+        "'profile label_22' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Profile"
+            Width: =77
+            X: =519
+            Y: =1099
+            ZIndex: =21
+
+        "'sos label_22' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="SOS"
+            Width: =48
+            X: =296
+            Y: =1099
+            ZIndex: =22
+
+        "'navigation icon_22' As image":
+            Height: =45
+            Image: ='navigate icon'
+            Width: =45
+            X: =185
+            Y: =1058
+            ZIndex: =23
+
+        "'SOS icon_22' As image":
+            Height: =37
+            Image: ='sos icon_1'
+            Width: =37
+            X: =302
+            Y: =1066
+            ZIndex: =24
+
+        "'Alarm icon_22' As image":
+            Height: =45
+            Image: =bell
+            Width: =45
+            X: =411
+            Y: =1062
+            ZIndex: =25
+
+        "'Profile icon_22' As image":
+            Height: =45
+            Image: =user_1
+            Width: =45
+            X: =535
+            Y: =1062
+            ZIndex: =26
+
+        "'Home icon_22' As image":
+            Height: =45
+            Image: =home
+            Width: =45
+            X: =63
+            Y: =1062
+            ZIndex: =27
+
+        Home_22 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Home"
+            Width: =70
+            X: =48
+            Y: =1099
+            ZIndex: =28
+
+    Button1_1 As button:
+        Fill: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Normal
+        Height: =51
+        OnSelect: |
+            =ClearCollect(usersafety,{safe:"Very Safe", Score:0},{safe: "Safe", Score:2},{safe: "Neutral", Score: 4},{safe: "Unsafe", Score:1},{safe: "Very unsafe", Score:0} )
+        Text: ="How safe am I feeling?"
+        Width: =219
+        X: =212
+        Y: =559
+        ZIndex: =30
+
+    Label2 As label:
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =70
+        Size: =20
+        Text: ="Hello"
+        Width: =78
+        X: =153
+        Y: =119
+        ZIndex: =31
+
+    TextInput2 As text:
+        BorderThickness: =0
+        Color: =RGBA(25, 24, 71, 1)
+        Default: =User().FullName
+        Fill: =RGBA(25, 24, 71, 0)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =20
+        Width: =235
+        X: =221
+        Y: =119
+        ZIndex: =32
+
+    "'form button_1' As button":
+        BorderColor: =RGBA(25, 24, 71, 1)
+        BorderThickness: =4
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Normal
+        Height: =100
+        HoverColor: =RGBA(25, 24, 71, 1)
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), 100%)
+        OnSelect: =Navigate('Emergency Contacts')
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =24
+        Text: =""
+        Width: =453
+        X: =95
+        Y: =654
+        ZIndex: =33
+
+    "'emergency form label_1' As label":
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =71
+        Size: =20
+        Text: ="Emergency contact form"
+        Width: =304
+        X: =215
+        Y: =669
+        ZIndex: =34
+
+    "'form icon_1' As image":
+        Height: =64
+        Image: =edit
+        OnSelect: =Navigate('Emergency Contacts', ScreenTransition.Fade)
+        Width: =105
+        X: =120
+        Y: =669
+        ZIndex: =35
+
+    TextInput3 As text:
+        Default: =""
+        Font: =Font.Georgia
+        Height: =106
+        HintText: ="Share your feedback"
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Reset: |+
+            =true
+            
+        Size: =21
+        Width: =560
+        X: =48
+        Y: =788
+        ZIndex: =36
+
+    Button1 As button:
+        Fill: =RGBA(0, 13, 75, 1)
+        Font: =Font.Georgia
+        Height: =60
+        OnSelect: |-
+            =Collect(SPFeedback,{Feedback: TextInput3.Text}) ; Reset(TextInput3)
+        Size: =24
+        Text: ="Submit"
+        Width: =560
+        X: =48
+        Y: =920
+        ZIndex: =37
+

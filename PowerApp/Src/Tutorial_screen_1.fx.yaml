@@ -1,0 +1,74 @@
+Tutorial_screen_1 As screen:
+
+    TutorialScreen1 As image:
+        Height: =892
+        Image: ='Frame 1'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
+
+    Headline As label:
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =70
+        Size: =30
+        Text: ="Walk safer, not shorter"
+        Width: =560
+        X: =40
+        Y: =922
+        ZIndex: =2
+
+    Skip As label:
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =70
+        OnSelect: =Navigate(Register)
+        Size: =20
+        Text: ="Skip"
+        Width: =85
+        X: =40
+        Y: =1050
+        ZIndex: =3
+
+    Next As label:
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =70
+        OnSelect: =Navigate(Tutorial_screen_2)
+        Size: =20
+        Text: ="Next"
+        Width: =85
+        X: =515
+        Y: =1050
+        ZIndex: =4
+
+    Circle_1 As circle:
+        Fill: =RGBA(255, 155, 33, 1)
+        Height: =15
+        OnSelect: =Navigate(Tutorial_screen_1)
+        Width: =15
+        X: =253
+        Y: =1077
+        ZIndex: =5
+
+    Circle_2 As circle:
+        Fill: =RGBA(25, 24, 71, 1)
+        Height: =15
+        OnSelect: =Navigate(Tutorial_screen_2)
+        Width: =15
+        X: =301
+        Y: =1077
+        ZIndex: =6
+
+    Circle_3 As circle:
+        Fill: =RGBA(25, 24, 71, 1)
+        Height: =15
+        OnSelect: =Navigate(Tutorial_screen_3)
+        Width: =15
+        X: =349
+        Y: =1077
+        ZIndex: =7
+

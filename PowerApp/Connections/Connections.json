@@ -1,0 +1,264 @@
+{
+  "12e7fef5-b9e1-465b-8080-1f6f03edbdc7": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_twilio/connections/3cd15c347a4740b7b3c1131ac7c49bc9",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Twilio",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1450/1.0.1450.2361/twilio/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_twilio",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_twilio/connections/3cd15c347a4740b7b3c1131ac7c49bc9"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "87db4a4b-e56c-4b20-a83a-774602cd46a1",
+      "e201c92f-c174-462f-8dd2-011739da0421"
+    ],
+    "id": "12e7fef5-b9e1-465b-8080-1f6f03edbdc7"
+  },
+  "2a9f8f71-29cf-4520-b6dc-754e766dcd97": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/29f31a0536aa4c7ea0af42aaaf6c3974",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1559/1.0.1559.2723/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://stdntpartners.sharepoint.com/sites/SafetyPins": {
+        "dataSources": {
+          "Emergency Contacts_2": {
+            "tableName": "572695fe-1437-4f8a-8580-e9629879e163"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Emergency Contacts_2"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2a9f8f71-29cf-4520-b6dc-754e766dcd97"
+  },
+  "62460294-86ee-485f-8d15-8e8626c736e8": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_bingmaps/connections/23ba61b8d7b04e9d9cec22320680419e",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Bing Maps",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1555/1.0.1555.2715/bingmaps/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_bingmaps",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_bingmaps/connections/23ba61b8d7b04e9d9cec22320680419e"
+    },
+    "datasets": {},
+    "dataSources": [
+      "BingMaps"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "62460294-86ee-485f-8d15-8e8626c736e8"
+  },
+  "78a1e082-2df6-435f-b036-19a79d36656a": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/6241fa2fda3744f08be75c133e8d84e1",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OneDrive for Business",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1546/1.0.1546.2665/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "b7d110cb-f214-4322-a4f0-2f0abbf17f85"
+    ],
+    "id": "78a1e082-2df6-435f-b036-19a79d36656a"
+  },
+  "87db4a4b-e56c-4b20-a83a-774602cd46a1": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/e2612bc0f8744f02894591d1dcc383f6",
+    "connectionParameters": {
+      "sku": "Enterprise",
+      "workFlowCallbackUri": "https://prod-101.westus.logic.azure.com:443/workflows/47231ca60f06420d95e581f3c81c8073/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=DO-yyFqOlN0TVVIVOCy8aNkPnJlVSddKC658lCKMHLU",
+      "workflowEndpoint": "/subscriptions/754abb9d-e636-47dd-b406-0a8f58702e36/resourceGroups/84C31CA0AC3B4EAEAD11519D80233E6F-B9F0E469AFDC4EDD86F045CBBE1F7C95/providers/Microsoft.Logic/workflows/a1493045-ab17-4b59-b6b4-c4e5c32da2f7",
+      "workflowName": "a1493045-ab17-4b59-b6b4-c4e5c32da2f7",
+      "workflowPath": "/subscriptions/754abb9d-e636-47dd-b406-0a8f58702e36/resourceGroups/84C31CA0AC3B4EAEAD11519D80233E6F-B9F0E469AFDC4EDD86F045CBBE1F7C95/providers/Microsoft.Logic/workflows/a1493045-ab17-4b59-b6b4-c4e5c32da2f7"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "12e7fef5-b9e1-465b-8080-1f6f03edbdc7": {
+          "value": "shared_twilio"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "a1493045-ab17-4b59-b6b4-c4e5c32da2f7"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_twilio": {
+          "value": "12e7fef5-b9e1-465b-8080-1f6f03edbdc7"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "a1493045-ab17-4b59-b6b4-c4e5c32da2f7"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ClickaPowerAppsbuttontosendSMSusingTwilio"
+    ],
+    "dependencies": {
+      "shared_twilio": "12e7fef5-b9e1-465b-8080-1f6f03edbdc7"
+    },
+    "dependents": [],
+    "id": "87db4a4b-e56c-4b20-a83a-774602cd46a1"
+  },
+  "b7d110cb-f214-4322-a4f0-2f0abbf17f85": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_excel/connections/65f7eb74bd1642a1b0a86fde76fabdc3",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1563/1.0.1563.2732/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel",
+      "parameterHints": {
+        "78a1e082-2df6-435f-b036-19a79d36656a": {
+          "value": "fileSource"
+        }
+      },
+      "parameterHintsV2": {
+        "fileSource": {
+          "value": "78a1e082-2df6-435f-b036-19a79d36656a"
+        }
+      }
+    },
+    "datasets": {
+      "b!JBw3Kiyq3UqXnHh7-5fpnErtujLUUcdBi71J4TUIvMTT_IKIAqkZQrzvuycmaRQ0.01OX5XXJJAVOFIJXNI45DJJRSLF2K2ZRZU": {
+        "dataSources": {
+          "Table1": {
+            "tableName": "Table1"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Table1"
+    ],
+    "dependencies": {
+      "fileSource": "78a1e082-2df6-435f-b036-19a79d36656a"
+    },
+    "dependents": [],
+    "id": "b7d110cb-f214-4322-a4f0-2f0abbf17f85"
+  },
+  "e201c92f-c174-462f-8dd2-011739da0421": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/a7cf7a50454f46bd906053d38a750949",
+    "connectionParameters": {
+      "sku": "Enterprise",
+      "workFlowCallbackUri": "https://prod-122.westus.logic.azure.com:443/workflows/8812b6c2bb0b4618a5935c40705cff7d/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=R9JY52KauvIBkx4UukxfYAznWaZFJ4P4Cfy1ZTp7jgU",
+      "workflowEndpoint": "/subscriptions/754abb9d-e636-47dd-b406-0a8f58702e36/resourceGroups/84C31CA0AC3B4EAEAD11519D80233E6F-B9F0E469AFDC4EDD86F045CBBE1F7C95/providers/Microsoft.Logic/workflows/4f305b76-b6a7-4df1-bd94-3a79dc3ead59",
+      "workflowName": "4f305b76-b6a7-4df1-bd94-3a79dc3ead59",
+      "workflowPath": "/subscriptions/754abb9d-e636-47dd-b406-0a8f58702e36/resourceGroups/84C31CA0AC3B4EAEAD11519D80233E6F-B9F0E469AFDC4EDD86F045CBBE1F7C95/providers/Microsoft.Logic/workflows/4f305b76-b6a7-4df1-bd94-3a79dc3ead59"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "12e7fef5-b9e1-465b-8080-1f6f03edbdc7": {
+          "value": "shared_twilio"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "4f305b76-b6a7-4df1-bd94-3a79dc3ead59"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_twilio": {
+          "value": "12e7fef5-b9e1-465b-8080-1f6f03edbdc7"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "4f305b76-b6a7-4df1-bd94-3a79dc3ead59"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ClickaPowerAppsbuttontosendSMSusingTwilio-2"
+    ],
+    "dependencies": {
+      "shared_twilio": "12e7fef5-b9e1-465b-8080-1f6f03edbdc7"
+    },
+    "dependents": [],
+    "id": "e201c92f-c174-462f-8dd2-011739da0421"
+  },
+  "f5c0f911-3496-4293-ad52-bdea8b8b9097": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/29f31a0536aa4c7ea0af42aaaf6c3974",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1559/1.0.1559.2723/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://stdntpartners.sharepoint.com/sites/SafetyPins": {
+        "dataSources": {
+          "Emergency Contacts_1": {
+            "tableName": "572695fe-1437-4f8a-8580-e9629879e163"
+          },
+          "Registration List": {
+            "tableName": "cbefcf30-e7fe-4437-8a0e-8897150f567d"
+          },
+          "Registration List_1": {
+            "tableName": "cbefcf30-e7fe-4437-8a0e-8897150f567d"
+          },
+          "Review": {
+            "tableName": "01e59ea5-557b-4579-976b-6cc8c7d25533"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Emergency Contacts_1",
+      "Emergency Contacts_2",
+      "Registration List",
+      "Registration List_1",
+      "Review"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f5c0f911-3496-4293-ad52-bdea8b8b9097"
+  }
+}

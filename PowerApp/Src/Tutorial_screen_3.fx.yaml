@@ -1,0 +1,76 @@
+Tutorial_screen_3 As screen:
+
+    Headline_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =108
+        Size: =30
+        Text: ="Send your location to contacts when in need"
+        Width: =560
+        X: =40
+        Y: =922
+        ZIndex: =2
+
+    Skip_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =70
+        OnSelect: =Navigate(Register)
+        Size: =20
+        Text: ="Skip"
+        Width: =85
+        X: =40
+        Y: =1050
+        ZIndex: =3
+
+    Next_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =70
+        OnSelect: =Navigate(Register)
+        Size: =20
+        Text: ="Next"
+        Width: =85
+        X: =515
+        Y: =1050
+        ZIndex: =4
+
+    Circle_7 As circle:
+        Fill: =RGBA(25, 24, 71, 1)
+        Height: =15
+        OnSelect: =Navigate(Tutorial_screen_1)
+        Width: =15
+        X: =253
+        Y: =1077
+        ZIndex: =5
+
+    Circle_8 As circle:
+        Fill: =RGBA(25, 24, 71, 1)
+        Height: =15
+        OnSelect: =Navigate(Tutorial_screen_2)
+        Width: =15
+        X: =301
+        Y: =1077
+        ZIndex: =6
+
+    Circle_9 As circle:
+        Fill: =RGBA(255, 155, 33, 1)
+        Height: =15
+        OnSelect: =Navigate(Tutorial_screen_3)
+        Width: =15
+        X: =349
+        Y: =1077
+        ZIndex: =7
+
+    TutorialScreen3 As image:
+        Height: =899
+        Image: =bg_tutorial3
+        ImagePosition: =ImagePosition.Fill
+        Width: =575
+        X: =40
+        Y: =23
+        ZIndex: =8
+

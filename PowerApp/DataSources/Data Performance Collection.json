@@ -1,0 +1,86 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "dataperformances",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "dataperformance",
+    "MaxGetRowsCount": 500,
+    "Name": "Data Performance Collection",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "anyoptimizationapplied": "Any Optimization Applied",
+      "anyoptimizationavailable": "Any Optimization Available",
+      "component": "Component",
+      "count": "Count",
+      "dataperformanceid": "Id",
+      "entity": "Entity",
+      "estimatedoptimizationimpact": "Estimated Optimization Impact",
+      "executionperiod": "Execution Period",
+      "lastactionresult": "Last Action Result",
+      "lastoptimizationdate": "Last Optimization Date",
+      "maxtime": "Max Time",
+      "mediantime": "Median Time",
+      "mintime": "Min Time",
+      "operation": "Operation",
+      "optimizationstatus": "Optimization Status",
+      "optimizationstorage": "Optimization Storage",
+      "organizationid": "OrganizationId",
+      "realizedoptimizationimpact": "Optimization Impact (%)",
+      "solution": "Solution",
+      "weight": "Weight"
+    },
+    "PreferredName": "Data Performance Collection",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Data Performance Collection (Views)",
+    "Name": "_dataperformance_views",
+    "RelatedEntityName": "Data Performance Collection",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3deb8eb0-b735-4dd0-8e96-85f50c5e64c7": "All Data Performance Logs"
+    }
+  },
+  {
+    "DisplayName": "Any Optimization Applied (Data Performance Collection)",
+    "Name": "dataperformance_anyoptimizationapplied",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "anyoptimizationapplied",
+        "OptionSetReferenceEntityName": "Data Performance Collection"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "anyoptimizationapplied",
+    "RelatedEntityName": "Data Performance Collection",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Any Optimization Available (Data Performance Collection)",
+    "Name": "dataperformance_anyoptimizationavailable",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "anyoptimizationavailable",
+        "OptionSetReferenceEntityName": "Data Performance Collection"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "anyoptimizationavailable",
+    "RelatedEntityName": "Data Performance Collection",
+    "Type": "OptionSetInfo"
+  }
+]

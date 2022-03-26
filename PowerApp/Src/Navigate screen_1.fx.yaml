@@ -1,0 +1,244 @@
+"'Navigate screen_1' As screen":
+
+    Image8_1 As image:
+        Height: =340
+        Image: ='Group 136 1'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =16
+
+    "'nav bar_17' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =16
+
+        "'navigate button_25' As button":
+            AutoDisableOnSelect: =false
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate('Navigate screen_2')
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =135
+            Y: =1054
+            ZIndex: =1
+
+        "'sos button_25' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate(Danger)
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =263
+            Y: =1054
+            ZIndex: =2
+
+        "'alarm button_25' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate(choose)
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =388
+            Y: =1054
+            ZIndex: =3
+
+        "'profile button_25' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate(profile)
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =129
+            X: =511
+            Y: =1054
+            ZIndex: =4
+
+        "'navigate label_25' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Navigate"
+            Width: =94
+            X: =153
+            Y: =1099
+            ZIndex: =5
+
+        "'Alarm label_25' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Alarm"
+            Width: =75
+            X: =397
+            Y: =1099
+            ZIndex: =6
+
+        "'home button_25' As button":
+            BorderThickness: =0
+            Fill: =RGBA(25, 24, 71, 1)
+            Height: =82
+            HoverFill: =RGBA(25, 24, 71, 1)
+            OnSelect: =Navigate('Home screen')
+            PressedFill: =RGBA(25, 24, 71, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =24
+            Text: =""
+            Width: =137
+            Y: =1054
+            ZIndex: =7
+
+        "'profile label_25' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Profile"
+            Width: =77
+            X: =519
+            Y: =1099
+            ZIndex: =8
+
+        "'sos label_25' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="SOS"
+            Width: =48
+            X: =296
+            Y: =1099
+            ZIndex: =9
+
+        "'navigation icon_25' As image":
+            Height: =45
+            Image: ='navigate icon'
+            Width: =45
+            X: =185
+            Y: =1058
+            ZIndex: =10
+
+        "'SOS icon_25' As image":
+            Height: =37
+            Image: ='sos icon_1'
+            Width: =37
+            X: =302
+            Y: =1066
+            ZIndex: =11
+
+        "'Alarm icon_25' As image":
+            Height: =45
+            Image: =bell
+            Width: =45
+            X: =411
+            Y: =1062
+            ZIndex: =12
+
+        "'Profile icon_25' As image":
+            Height: =45
+            Image: =user_1
+            Width: =45
+            X: =535
+            Y: =1062
+            ZIndex: =13
+
+        "'Home icon_25' As image":
+            Height: =45
+            Image: =home
+            Width: =45
+            X: =63
+            Y: =1062
+            ZIndex: =14
+
+        Home_25 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =37
+            Size: =15
+            Text: ="Home"
+            Width: =70
+            X: =48
+            Y: =1099
+            ZIndex: =15
+
+    Image6_1 As image:
+        Height: =647
+        Image: =BingMaps.GetMap("AerialWithLabels",15,Location.Latitude,Location.Longitude)
+        ImagePosition: =ImagePosition.Fill
+        OnSelect: =Navigate(Splash_screen, ScreenTransition.Fade)
+        Width: =536
+        X: =44
+        Y: =242
+        ZIndex: =17
+
+    Button7_4 As button:
+        Fill: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Normal
+        Height: =89
+        OnSelect: =Navigate('Navigate screen_2')
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =24
+        Text: ="Navigate with street lights"
+        Width: =405
+        X: =106
+        Y: =933
+        ZIndex: =18
+
+    Label1_2 As label:
+        Color: =RGBA(0, 13, 75, 1)
+        Font: =Font.Georgia
+        Height: =102
+        Size: =40
+        Text: ="Your current location"
+        Width: =522
+        X: =44
+        Y: =113
+        ZIndex: =19
+

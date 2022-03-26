@@ -1,0 +1,60 @@
+EmojiComponent As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =100
+    Items: |
+        =Table(
+        {
+        Emoji:EmojiHappy,
+        EmojiColor:RGBA(39,167,56,1),
+        Label:"Very Safe",
+        Value:5
+        },
+        {
+        Emoji:EmojiSmile,
+        EmojiColor:RGBA(188,235,0,1),
+        Label:"Safe",
+        Value:4
+        },
+        {
+        Emoji:EmojiNeutral,
+        EmojiColor:RGBA(255,210,0,1),
+        Label:"Neutral",
+        Value:4
+        },
+        {
+        Emoji:EmojiFrown,
+        EmojiColor:RGBA(254,147,7,1),
+        Label:"Unsafe",
+        Value:2
+        },
+        {
+        Emoji:EmojiSad,
+        EmojiColor:RGBA(288,6,21,1),
+        Label:"Very unsafe",
+        Value:1
+        }
+        )
+    Response: =Gallery1.Selected.Value
+    Width: =450
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Gallery1 As gallery.galleryHorizontal:
+        Default: ={}
+        Height: =100
+        Items: =Parent.Items
+        TemplateFill: =If(ThisItem.IsSelected,ThisItem.EmojiColor)
+        TemplateSize: =83
+        Width: =450
+        ZIndex: =1
+
+        Icon1 As icon.CheckBadge:
+            Color: =If(ThisItem.IsSelected,RGBA(255,255,255,1),ThisItem.EmojiColor)
+            HoverColor: =ColorFade(ThisItem.EmojiColor,-20%)
+            Icon: =ThisItem.Emoji
+            OnSelect: =Select(Parent)
+            X: =10
+            Y: =15
+            ZIndex: =1
+

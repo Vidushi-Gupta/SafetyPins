@@ -1,0 +1,26 @@
+Splash_screen As screen:
+    BackgroundImage: =splash
+    ImagePosition: =ImagePosition.Fill
+    LoadingSpinner: =
+
+    Logo As image:
+        Height: =275
+        Image: =logo
+        OnSelect: =Navigate(Tutorial_screen_1)
+        Width: =267
+        X: =188
+        Y: =418
+        ZIndex: =1
+
+    SafetyPins As label:
+        Align: =Align.Center
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =70
+        Size: =30
+        Text: ="SafetyPins"
+        Width: =560
+        X: =41
+        Y: =693
+        ZIndex: =2
+

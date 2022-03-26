@@ -1,0 +1,9 @@
+[
+  {
+    "AddinConnectorId": "a1493045-ab17-4b59-b6b4-c4e5c32da2f7",
+    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
+    "Name": "ClickaPowerAppsbuttontosendSMSusingTwilio",
+    "ServiceKind": "AddinWadl",
+    "Type": "ServiceInfo"
+  }
+]

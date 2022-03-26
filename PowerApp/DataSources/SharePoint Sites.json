@@ -1,0 +1,265 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "sharepointsites",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "sharepointsite",
+    "MaxGetRowsCount": 500,
+    "Name": "SharePoint Sites",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "absoluteurl": "Absolute URL",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "description": "Description",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "isdefault": "Default Site",
+      "isgridpresent": "List component is installed",
+      "ispowerbisite": "Allow Embedding of Power BI Reports",
+      "lastvalidated": "Last Validated",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "name": "Name",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "parentsite": "Parent Site",
+      "relativeurl": "Relative URL",
+      "servicetype": "Service Type",
+      "sharepointdocumentlocation_parent_sharepointsite": "Document Locations",
+      "SharePointSite_AsyncOperations": "System Jobs",
+      "SharePointSite_DuplicateBaseRecord": "Duplicate Records (SharePointSite_DuplicateBaseRecord)",
+      "SharePointSite_DuplicateMatchingRecord": "Duplicate Records (SharePointSite_DuplicateMatchingRecord)",
+      "sharepointsite_parentsite_sharepointsite": "SharePoint Sites",
+      "sharepointsite_principalobjectattributeaccess": "Field Sharing",
+      "SharePointSite_ProcessSessions": "Process Sessions",
+      "SharePointSite_SyncErrors": "Sync Errors",
+      "sharepointsiteid": "SharePoint Site ID",
+      "sitecollectionid": "SiteCollectionId",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "TimeZoneRuleVersionNumber",
+      "transactioncurrencyid": "Currency",
+      "userid": "SharePoint Site Owner",
+      "utcconversiontimezonecode": "UTCConversionTimeZoneCode",
+      "validationstatus": "Last Validation Status",
+      "validationstatuserrorcode": "Additional Information",
+      "versionnumber": "VersionNumber"
+    },
+    "PreferredName": "SharePoint Sites",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "SharePoint Sites (Views)",
+    "Name": "_sharepointsite_views",
+    "RelatedEntityName": "SharePoint Sites",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "519a30fa-6d4a-4a9d-befe-2b08c9429e87": "SharePoint Site Lookup View",
+      "76251bbd-bc73-41d1-ae97-37c361b542f9": "All SharePoint Sites",
+      "8735625e-5657-df11-a5a2-00155d2a9005": "My Active SharePoint Sites",
+      "9d844e0d-5657-df11-a5a2-00155d2a9005": "Inactive SharePoint Sites",
+      "a529f7aa-f755-41bf-92ec-5a89174bec15": "SharePoint Site Advanced Find View",
+      "df2fe6da-f97f-4878-80b6-8deb7d9d6a09": "SharePoint Site Associated View",
+      "ef773df3-5557-df11-a5a2-00155d2a9005": "Active SharePoint Sites"
+    }
+  },
+  {
+    "DisplayName": "Validation Status",
+    "Name": "sharepoint_validationstatus",
+    "OptionSetInfoNameMapping": {
+      "1": "Not Validated",
+      "2": "In Progress",
+      "3": "Invalid",
+      "4": "Valid",
+      "5": "Could not validate"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "validationstatus",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "validationstatus",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Validation Status Reason",
+    "Name": "sharepoint_validationstatusreason",
+    "OptionSetInfoNameMapping": {
+      "1": "This record's URL has not been validated.",
+      "2": "This record's URL is valid.",
+      "3": "This record's URL is not valid.",
+      "4": "The URL schemes of Microsoft Dynamics 365 and SharePoint are different.",
+      "5": "The URL could not be accessed because of Internet Explorer security settings.",
+      "6": "Authentication failure.",
+      "7": "Invalid certificates."
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "validationstatuserrorcode",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "validationstatuserrorcode",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Entity for SharePoint Folder Structure (SharePoint Sites)",
+    "Name": "sharepointsite_folderstructureentity",
+    "OptionSetInfoNameMapping": {
+      "0": "None",
+      "1": "Account",
+      "2": "Contact"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "folderstructureentity",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "EntityNameType",
+    "RelatedColumnInvariantName": "folderstructureentity",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Default Site (SharePoint Sites)",
+    "Name": "sharepointsite_isdefault",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isdefault",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isdefault",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "List component is installed (SharePoint Sites)",
+    "Name": "sharepointsite_isgridpresent",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isgridpresent",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isgridpresent",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Allow Embedding of Power BI Reports (SharePoint Sites)",
+    "Name": "sharepointsite_ispowerbisite",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ispowerbisite",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ispowerbisite",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ServiceType",
+    "Name": "sharepointsite_servicetype",
+    "OptionSetInfoNameMapping": {
+      "0": "SharePoint",
+      "1": "OneDrive",
+      "2": "Shared with me",
+      "3": "MS Teams"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "servicetype",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "servicetype",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (SharePoint Sites)",
+    "Name": "sharepointsite_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (SharePoint Sites)",
+    "Name": "sharepointsite_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "SharePoint Sites"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "SharePoint Sites",
+    "Type": "OptionSetInfo"
+  }
+]

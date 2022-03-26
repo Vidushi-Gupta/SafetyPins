@@ -1,0 +1,109 @@
+"'Login screen' As screen.'phoneLayout_HeaderAndForm_ver3.0'":
+
+    Image2_1 As image:
+        Height: =1134
+        Image: =COVSTATS_1
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
+
+    RectQuickActionBar1_1 As rectangle:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =88
+        Width: =Parent.Width
+        Y: =1030
+        ZIndex: =2
+
+    Label4 As label:
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =56
+        OnSelect: =Navigate(Register)
+        Size: =20
+        Text: ="Not a member? Register"
+        Width: =352
+        X: =239
+        Y: =562
+        ZIndex: =7
+
+    Label4_1 As label:
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =56
+        Size: =20
+        Text: ="Email"
+        Width: =352
+        X: =44
+        Y: =618
+        ZIndex: =8
+
+    TextInput1 As text:
+        BorderColor: =RGBA(25, 24, 71, 1)
+        Color: =RGBA(0, 0, 0, 0.38)
+        Default: =""
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.Georgia
+        Height: =70
+        HintText: ="john@doe.com"
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Reset: =true
+        Size: =20
+        Width: =560
+        X: =44
+        Y: =674
+        ZIndex: =9
+
+    Label4_2 As label:
+        Color: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        Height: =56
+        Size: =20
+        Text: ="Password"
+        Width: =352
+        X: =44
+        Y: =758
+        ZIndex: =10
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(25, 24, 71, 1)
+        Color: =RGBA(0, 0, 0, 0.38)
+        Default: =""
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.Georgia
+        Height: =70
+        HintText: ="****"
+        Mode: =TextMode.Password
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Reset: =true
+        Size: =20
+        Width: =560
+        X: =44
+        Y: =814
+        ZIndex: =11
+
+    Button5 As button:
+        Fill: =RGBA(25, 24, 71, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Normal
+        Height: =70
+        HoverColor: =RGBA(25, 24, 71, 1)
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), 100%)
+        OnSelect: =If(LookUp('Registration List',Email=TextInput1.Text,Password=TextInput1_1.Text),Navigate('Home screen'),Notify("Invalid credentials",NotificationType.Error)&Reset(TextInput1)&Reset(TextInput1_1))
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =20
+        Text: ="Login"
+        Width: =560
+        X: =44
+        Y: =922
+        ZIndex: =12
+
