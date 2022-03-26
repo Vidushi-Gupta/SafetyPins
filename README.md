@@ -1,34 +1,44 @@
-# SafetyPins
+# SafetyPins  <img src=https://user-images.githubusercontent.com/55969597/160252515-1b9dddb6-b781-4beb-8abd-a476d9acaf97.png width=150 align='right'>
 
-The path to perfect safety
+It's time to take **safer** routes over shorter routes!
 
 ## 💡Motivation 
 
-Feeling safe is a basic human right. It's easy to be victim of the numerous wrongdoings or natural catastrophe while travelling on your own.
+- Approximately **one in every two women** feel unsafe walking on the roads after sunset. 
+- Women are extra cautious while walking on the roads after sunset. All the cat-calling, the robbery of gold necklaces and kidnapping is something that makes roads very unsafe in the dark. 
+- With the motivation of **reducing crime rates and making roads safer to walk**, this is an application designed provide a safer walking experience. 
+- Feeling safe is a basic human right. It's easy to be victim of the numerous wrongdoings or natural catastrophe while travelling on your own.
 
 ## 📲What it does?
 
+- **Navigation**: It uses the street light data and helps the user with the safest path to reach their destination. 
+- **Emergency sirens**: It also has about 6 built in sirens to alert people around incase of any emergencies or when they would want to attract the attention of people in public.
+- **Emergency contact**:Furthermore, it stores emergency contact numbers incase of emergencies, they can be immediately contacted within a press of a key.
 
-It fetches the traffic light data and navigates the user to the safest path to reach their destination. It also has built in sirens to alert people around incase of any discrepancies. Furthermore, it stores emergency contact numbers incase of emergencies who can be immediately contacted within a press of a key.
+## 🎛️ Resources used
+<img src="https://user-images.githubusercontent.com/55969597/160252835-808ad6c0-5b0b-4353-b6b9-131ae3a1a5a5.png" width="400px" align='right' > 
 
-1. Microsoft PowerApps -  platform with the help of which the app is made.
-<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/powerapps.png" width="100px" > 
-2. Figma - to build digital products
-<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/figma.png" width="100px" >
-3. Bing - Bing Maps provides maps & level wise layouts of over 5300 venues across the world.
-<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/bing.png" width="100px">
-4. Twilio - used to send SMS, WhatsApp, Voice, Video, email, and even IoT, across the customer journey
-<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/twilio.png" width="100px">
-5. Sharepoint -  web-based collaborative platform that integrates with Microsoft Office
-<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/sharepoint.png" width="100px">
-6. GoogleMaps - offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling
-<img src="https://github.com/SayantaniDeb/SafetyPins/blob/main/Logo/google maps.png" width="100px">
+1. **Microsoft PowerApps** -  platform with the help of which the app is made.
+
+2. **Bing** - Bing Maps provides maps & level wise layouts of over 5300 venues across the world.
+
+3. **Microsoft To-do**: For planning and collaorative distribution of tasks.
+
+5. **Twilio** - used to send SMS, WhatsApp, Voice, Video, email, and even IoT, across the customer journey for emergency situations.
+
+6. **GoogleMaps** - offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling
+
+7. **Sharepoint** - web-based collaborative platform that integrates with Microsoft Office, used for databases in powerapps.
+
+8. **Figma** - used for wireframing and prototyping.
+
+9. **GitHub** - used for version control and collaboration.
 
 ## 🛠️How we built it? 
 | Software | Version |
 |----------|-------|
 | Python 3 | 3.7.1 |
-| Microsoft Chromium Edge | Beta 81.0.416.34 |
+| Microsoft Chromium Edge | 99.0.1150.52 |
 | PowerApps | 3.22022 |
 | Figma | 1 |
 | Bing Maps | 3D 4.0 |
@@ -37,6 +47,9 @@ It fetches the traffic light data and navigates the user to the safest path to r
 | Google Maps | 10.66. 1 |
 
 ## 👩🏻‍💻App showcase 
+
+![Wireframes]()
+### Link to view Wireframes: [Here]()
 
 ![Mobile screens UI prototyping](https://user-images.githubusercontent.com/74983536/159151913-3fd9cfa9-3a96-45bb-bbc6-c6af0f694802.png)
 
@@ -47,8 +60,8 @@ It fetches the traffic light data and navigates the user to the safest path to r
 
 ### Link to view watch UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C0.29&scaling=scale-down&starting-point-node-id=2%3A3)
 
-### Link to wireframes and UI (high fidelity) screens: [Here](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
-
+### Link to wireframes and UI (high fidelity) screens: [Figma File](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
+### Link to the demo PPT: [Here]()
 
 
 | Watch-UI | Phone-UI |
@@ -64,22 +77,22 @@ It fetches the traffic light data and navigates the user to the safest path to r
 
 ## 🧠Challenges we ran into 
 
-- We were all affected with Covid-19 at dfferent timeline of the project.
-- Faced issues such as embedding the maps to the app.
-
-
-
+- This was our very first time working with a low code platform. It was a very significant learning curve for all the members of the team.
+- We were all affected with COVID-19 at dfferent timeline of the project.
+- Spent extra time to learn new concepts like embedding the maps to the app.
+- We spent a lot of time looking for quality street light data.
 
 
 ## 🥇Accomplishments we are proud of
-- This was our first time working on Microsoft PowerApps.
-- We were able to collaborate and work in harmony despite severe ailments hindering us.
-
-
+- This was our first time working on Microsoft PowerApps and ✨WE DID IT✨
+- We were able to collaborate and work in harmony despite severe obstacles like different states, COVID-19 testing positive, side hustles.
+- We were able to make it to the end as a team!
 
 ## 🚀Future Scope
-- The navigation feature to be imporved according to the user's loaction.
-- With more traffic light data, the limitation of the safety path can be expanded.
+- The navigation feature to be imporved according to the user's location.
+- With more street light data, the limitation of the safety path can be expanded.
+- We can expand the concept to open buildings at the time the user has been walking.
+- We can integrate a like/dislike feature wherein we could get the user's feedback of whether the path was well lit and safe or not/
 
 
 ## 👩🏻‍💻👩🏻‍💻👩🏻‍💻Team behind SafetyPins
