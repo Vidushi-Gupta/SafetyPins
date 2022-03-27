@@ -45,7 +45,7 @@ It's time to take **safer** routes over shorter routes!
 | SharePoint | 4.40.1 |
 | Google Maps | 10.66. 1 |
 
-## 👩🏻‍💻App showcase 
+## 👩🏻‍💻High-Fidelity and Low-Fidelity UI Screens 
 
 ![Wireframes]()
 ### Link to view Wireframes: [Here]()
@@ -60,16 +60,17 @@ It's time to take **safer** routes over shorter routes!
 ### Link to view watch UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C0.29&scaling=scale-down&starting-point-node-id=2%3A3)
 
 ### Link to wireframes and UI (high fidelity) screens: [Figma File](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
-### Link to the demo PPT: [Here](https://stdntpartners-my.sharepoint.com/:p:/g/personal/vidushi_gupta_1_studentambassadors_com/EcRx-udxcI9Nk6Bi4UmVhMQB8cuYDeqSuAnDjGzF4YwNVA?e=5h3lKc)
+### Link to the demo PPT: [Here](https://github.com/Vidushi-Gupta/SafetyPins/blob/main/Assets/SafetyPins%20demo%20ppt.pdf)
 
-
+##💻 App Showcase
 | Watch-UI | Phone-UI |
 |----------|----------|
 | ![Watch-UI-demonstration](https://user-images.githubusercontent.com/74983536/159152313-64c61679-b658-4af1-82d3-f03c125519d2.gif) | ![Phone-UI-demonstration-video](https://user-images.githubusercontent.com/74983536/159152346-1bc4a208-818d-4389-9f3b-5f8abf0b461a.gif) |
 | [Watch UI screens.pdf](https://github.com/SayantaniDeb/SafetyPins/files/8310806/Watch.UI.screens.pdf) | [Phone UI screens.pdf](https://github.com/SayantaniDeb/SafetyPins/files/8310808/Phone.UI.screens.pdf) |
 
 
-
+### App Demo
+![App Demo](https://github.com/Vidushi-Gupta/SafetyPins/blob/main/Assets/SafetyPins.gif)
 
 
 
