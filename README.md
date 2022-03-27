@@ -60,7 +60,7 @@ It's time to take **safer** routes over shorter routes!
 ### Link to view watch UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C0.29&scaling=scale-down&starting-point-node-id=2%3A3)
 
 ### Link to wireframes and UI (high fidelity) screens: [Figma File](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
-### Link to the demo PPT: [Here]()
+### Link to the demo PPT: [Here](https://stdntpartners-my.sharepoint.com/:p:/g/personal/vidushi_gupta_1_studentambassadors_com/EcRx-udxcI9Nk6Bi4UmVhMQB8cuYDeqSuAnDjGzF4YwNVA?e=5h3lKc)
 
 
 | Watch-UI | Phone-UI |
