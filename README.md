@@ -48,7 +48,8 @@ You can find our app [here](https://apps.powerapps.com/play/f1ca9413-7ff1-4587-b
 
 ## 👩🏻‍💻High-Fidelity and Low-Fidelity UI Screens 
 
-![Wireframes](https://user-images.githubusercontent.com/25451422/160297104-e208b1a5-796e-470e-b117-a44c003bd2aa.png)
+![Wireframes](https://user-images.githubusercontent.com/25451422/160297568-f663fac1-06ad-442c-a7f1-f6e845be35af.png)
+
 
 ### Link to view Wireframes: [Here](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A1296)
 
