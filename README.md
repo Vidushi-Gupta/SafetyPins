@@ -1,6 +1,7 @@
 # SafetyPins  <img src=https://user-images.githubusercontent.com/55969597/160252515-1b9dddb6-b781-4beb-8abd-a476d9acaf97.png width=150 align='right'>
 
-It's time to take **safer** routes over shorter routes!
+It's time to take **safer** routes over shorter routes! <br>
+You can find our app [here](https://apps.powerapps.com/play/f1ca9413-7ff1-4587-b112-8f29f917409a?tenantId=84c31ca0-ac3b-4eae-ad11-519d80233e6f)! (The app is shared with everyone in the MLSA organization)
 
 ## 💡Motivation 
 
@@ -47,8 +48,9 @@ It's time to take **safer** routes over shorter routes!
 
 ## 👩🏻‍💻High-Fidelity and Low-Fidelity UI Screens 
 
-![Wireframes]()
-### Link to view Wireframes: [Here]()
+![Wireframes](https://user-images.githubusercontent.com/25451422/160297104-e208b1a5-796e-470e-b117-a44c003bd2aa.png)
+
+### Link to view Wireframes: [Here](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A1296)
 
 ![Mobile screens UI prototyping](https://user-images.githubusercontent.com/74983536/159151913-3fd9cfa9-3a96-45bb-bbc6-c6af0f694802.png)
 
@@ -58,11 +60,12 @@ It's time to take **safer** routes over shorter routes!
 
 
 ### Link to view watch UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C0.29&scaling=scale-down&starting-point-node-id=2%3A3)
+### Link to view Wireframes prototype: [Here]()
 
 ### Link to wireframes and UI (high fidelity) screens: [Figma File](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
 ### Link to the demo PPT: [Here](https://github.com/Vidushi-Gupta/SafetyPins/blob/main/Assets/SafetyPins%20demo%20ppt.pdf)
 
-##💻 App Showcase
+## 💻 App Showcase
 | Watch-UI | Phone-UI |
 |----------|----------|
 | ![Watch-UI-demonstration](https://user-images.githubusercontent.com/74983536/159152313-64c61679-b658-4af1-82d3-f03c125519d2.gif) | ![Phone-UI-demonstration-video](https://user-images.githubusercontent.com/74983536/159152346-1bc4a208-818d-4389-9f3b-5f8abf0b461a.gif) |
