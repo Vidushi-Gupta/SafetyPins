@@ -48,7 +48,8 @@ You can find our app [here](https://apps.powerapps.com/play/f1ca9413-7ff1-4587-b
 
 ## 👩🏻‍💻High-Fidelity and Low-Fidelity UI Screens 
 
-![Wireframes](https://user-images.githubusercontent.com/25451422/160297104-e208b1a5-796e-470e-b117-a44c003bd2aa.png)
+![Wireframes](https://user-images.githubusercontent.com/25451422/160297568-f663fac1-06ad-442c-a7f1-f6e845be35af.png)
+
 
 ### Link to view Wireframes: [Here](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A1296)
 
@@ -60,7 +61,7 @@ You can find our app [here](https://apps.powerapps.com/play/f1ca9413-7ff1-4587-b
 
 
 ### Link to view watch UI prototype: [Here](https://www.figma.com/proto/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C0.29&scaling=scale-down&starting-point-node-id=2%3A3)
-### Link to view Wireframes prototype: [Here]()
+### Link to view wireframes prototype: [Here](https://github.com/Vidushi-Gupta/SafetyPins/blob/main/Assets/SafetyPins%20wireframes.pdf)
 
 ### Link to wireframes and UI (high fidelity) screens: [Figma File](https://www.figma.com/file/9kMXLCJ9LCxQZ7J4Yhrr09/SafetyPins?node-id=2%3A67)
 ### Link to the demo PPT: [Here](https://github.com/Vidushi-Gupta/SafetyPins/blob/main/Assets/SafetyPins%20demo%20ppt.pdf)
