@@ -37,7 +37,6 @@ It's time to take **safer** routes over shorter routes!
 ## 🛠️How we built it? 
 | Software | Version |
 |----------|-------|
-| Python 3 | 3.7.1 |
 | Microsoft Chromium Edge | 99.0.1150.52 |
 | PowerApps | 3.22022 |
 | Figma | 1 |
